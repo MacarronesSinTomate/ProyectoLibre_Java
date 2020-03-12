@@ -41,7 +41,7 @@ public class Videojuego {
 	}
 	
 	public String toString() {
-		return ("\n##########################" + "\nNombre: " + this.nombre + "\nDesarrollador" + this.desarrollador +
+		return ("\n##########################" + "\nNombre: " + this.nombre + "\nDesarrollador: " + this.desarrollador +
 				"\nPrecio recomendado: " + this.precioRecomendado + "\nEdad minima recomendada: " + this.edadMinRecomendada +
 				"\n##########################\n");
 	}
